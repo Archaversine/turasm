@@ -1,0 +1,30 @@
+; ComputerCraft Turtle Assembly Language TEST
+
+; This program doesn't do anything meaningful, it's just to test out the 
+; functionality of the language
+
+; Print hello world
+say "Hello, World!"
+
+; Create a table pos that has an 'x' and a 'y' attribute
+set $pos {} 
+set $pos.x 0
+set $pos.y 1
+
+; Compare the x and y attributes
+cmp $pos.x $pos.y 
+jle lesser
+
+; If the x attribute is greater
+greater:
+    mov $pos.x up
+    jmp end
+
+; If the x attribute is lesser than
+lesser:
+    mov $pos.y down
+
+end: 
+    mov 1 forward
+
+

@@ -1,0 +1,39 @@
+
+; This program builds a bridge for as long as possible
+; The first slot is used for refueling, the second is used for placeable 
+; blocks
+
+set $fuelSlot 0
+set $blockSlot 1
+
+set $exitmsg "Done!"
+
+jmp checkFuel
+
+loop:
+    sel $blockSlot
+    dig *
+    mov 1 forward 
+    plc down
+
+    cmp $status true
+    jeq checkFuel
+
+    set $exitmsg "Out of blocks."
+    jmp exit
+
+checkFuel:
+    cmp &fuelLevel 0 
+    jgt loop
+
+    sel $fuelSlot 
+    ref 1
+
+    cmp $status true
+    jeq loop
+
+    set $exitmsg "Out of fuel."
+    jmp exit
+
+exit:
+    say $exitmsg

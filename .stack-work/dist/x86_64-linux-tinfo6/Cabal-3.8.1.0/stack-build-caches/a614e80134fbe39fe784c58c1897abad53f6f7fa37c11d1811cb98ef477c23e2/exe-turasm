@@ -1,0 +1,32 @@
+/home/soundwave/Programming/Haskell/turasm/CHANGELOG.md:
+  hash: 83ce65e9dedb1760ba96ab0d4b596a2b8a5814b69507712416b5671d25838c03
+/home/soundwave/Programming/Haskell/turasm/README.md:
+  hash: 3ef9bf866b93964b1755c3bc9301a3b332430e2c0bcf5601dcfd4f8a89d9a57d
+/home/soundwave/Programming/Haskell/turasm/src/Main.hs:
+  hash: 22446df35b8f76704370208b51a445134147b1e71696b150285984d2d6a2d5bf
+/home/soundwave/Programming/Haskell/turasm/src/TurASM.hs:
+  hash: bb7d61fe871fcc6460c1557150450c1b075d1357869bafe123f6a27949f28378
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Parser.hs:
+  hash: 53dd5fffe92f1c9a978b46451988ca4a11b535fba3dee66d87afcb0d365edef5
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Parser/Expr.hs:
+  hash: 84672832b7fa339ca10142af8b14e4c494319d65f3964dcb6d2f3fcf96b38f44
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Parser/Getter.hs:
+  hash: 9761f61c819fdbaece2b3aecebbce4f48d83ab20cbe6a01ca5d950bf472dda26
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Parser/Instruction.hs:
+  hash: 8249fae25e575546055f3564d0987a06b12de851da85ad338cd191a3e0b0da5d
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Parser/Types.hs:
+  hash: d8bac6f51ec7e92dcbbd00d44d20b8f15c0e970f8d11fda6eeba6b3181e6dfb6
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Writer.hs:
+  hash: 65085213a9ae1f459efe7de2848167d82d7bb19a773b6e988a06e7023a8f6ae8
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Writer/Expr.hs:
+  hash: bc6c7b413f456bd5611d0aa713d8549df82b515eab4efbe46ef70bb2b587f794
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Writer/Instruction.hs:
+  hash: 009e542c487eac06824748fde261c87d7a40cde944bc4ac77f681f4a707700d4
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Writer/Prelude.hs:
+  hash: d7d04c07ef937a5179bd7d26600bf1b940bdb5c3719de4131f250a418204ca67
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Writer/Prelude/Func.hs:
+  hash: 5723f5e0fce4b61daf3fed67fce0a79169cfe5d0c148bc2c0529acd6f62579d2
+/home/soundwave/Programming/Haskell/turasm/src/TurASM/Writer/Prelude/Var.hs:
+  hash: 5f45b64b040c71cac5359d8502770ac4e95db281404794540c1c11ba29437e54
+/home/soundwave/Programming/Haskell/turasm/turasm.cabal:
+  hash: 11ea22db90776564532dd52e3bf9f77471dad3dbe67026d9bafe773185628c67

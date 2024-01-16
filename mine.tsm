@@ -1,0 +1,28 @@
+
+; Mining Program
+; This mines some stuff
+
+refuel:
+    set $prev &selectedSlot 
+    set $i 0
+
+refuelLoop:
+    sel $i
+    ref 1 
+    cmp $status true
+    jeq refuelDone
+
+    add $i 1
+    jmp refuelLoop
+
+refuelDone:
+    sel $prev
+    jbl $ret
+
+main:
+    cmp &fuelLevel 0
+    set $ret "main"
+    jle refuel
+
+    dig *
+    jmp main
